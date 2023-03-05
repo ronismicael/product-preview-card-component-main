@@ -1,0 +1,104 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@700&display=swap');
+
+:root{
+    --Font1: 'Montserrat', sans-serif;
+    --h1:'Fraunces', serif;
+
+    --cor1:hsl(158, 36%, 37%);
+    --cor2:hsl(30, 38%, 92%);
+
+    --cor3:hsl(212, 21%, 14%);
+    --cor4:hsl(228, 12%, 48%);
+}
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: antiquewhite;
+}
+
+main{
+    padding-bottom: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: white;
+    border-radius: 10px;
+    width: 340px;
+}
+
+img{
+    height: 30vh;
+    width: 340px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.bloco{
+    margin: auto;
+    width: 275px;
+}
+
+.bloco >p{
+    line-height: 25px;
+    color: var(--cor4);
+    font-weight: 500;
+    margin-top: 10px;
+    font-size: 14px;
+    font-family: var(--Font1);
+}
+
+h1{
+    margin-top: 10px;
+    color: var(--cor3);
+    font-weight: 700;
+    font-family: var(--h1);
+}
+
+.text{
+    width: 300px;
+}
+
+.preços{
+    padding-top: 20px;
+    padding-bottom: 5px;
+}
+
+#preço{
+    font-size: 2.0em;
+    color: var(--cor1);
+    font-family: var(--h1);
+}
+
+#dele{
+    margin-left: 10px;
+    font-size: 15px;
+    color: var(--cor4);
+}
+
+button{
+    text-align: center;
+    font-weight: 700;
+    font-family: var(--Font1);
+    color: white;
+    border-radius: 10px;
+    width: 280px;
+    display: block;
+    margin: auto;
+    height: 45px;
+    background-color: var(--cor1);
+    border: none;
+}
+
+button:hover{
+    background-color: hsl(157, 36%, 23%);
+    cursor: pointer;
+}
